@@ -3,32 +3,19 @@
 /* Navigation bar */
 .navbar {
     background-color: rgb(188, 212, 230);
-    justify: center;
+
 }
 .navbar-brand {
     margin: 10px;
 }
-
-
-
-
-#container {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-h3 {
-    margin: 10px;
-    text-align: center;
-}
-.col-6 {
-    margin: 0;
-    padding: 5%;
-}
-
+/* main page body */
 body {
     background-color: rgb(240, 239, 235);
+}
+#main-page {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .leftcolumn {
@@ -43,12 +30,15 @@ body {
 
 .preview {
     width: 100%;
-    
-    /* height: 20%; */
 }
 
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
 .card {
-    border-radius: 25px;
+   border-radius: 25px;
+    
 }
 
 .small-globe {
@@ -62,5 +52,29 @@ p {
     text-align: justify;
     margin: 20px;
     line-height: 2;
+    
+}
+
+/* Comparison page */
+#all-plots-cont {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(240, 239, 235);
+}
+
+.all-plot-img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    box-shadow: 10px 10px grey;
+    
+}
+.compare {
+    margin: 20px;
+    text-align: center;
+    color: black;
     
 }
