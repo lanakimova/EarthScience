@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Resources/assets/globe.png" width="40">  
+        EarthScience
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="visualization.html" target="_self">Visualization</a> -->
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Visualization
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="vis-max-temp.html">Latitude vs. Max. Temperature</a></li>
+                <li><a class="dropdown-item" href="viz-humid-level.html">Latitude vs. Humidity Level</a></li>
+                <li><a class="dropdown-item" href="viz-wind-speed.html">Latitude vs. Wind Speed</a></li>
+                <li><a class="dropdown-item" href="viz-cloud.html">Latitude vs. Cloudiness</a></li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html" target="_self">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
