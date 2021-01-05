@@ -52,6 +52,11 @@ p {
     width: 50%;  
 }
 
+.col6-indx {
+    border-right-style: double;
+    border-right: 2px solid grey;
+    background-color: blue;
+}
 .preview {
     width: 100%;
 }
