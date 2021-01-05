@@ -3,13 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>EarthScience</title>
-
-        <!--Bring in bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
               rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
               crossorigin="anonymous">
-
-        <link rel='stylesheet' href="style.css">    
+        <link rel='stylesheet' href="style.css">  
+        <script src="index.js" type="text/javascript" defer></script> 
     </head>
     <body>
         <!-- Navigation bar  -->
@@ -33,7 +31,7 @@
                         Visualization
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="vis-max-temp.html">Latitude vs. Max. Temperature</a></li>
+                        <li><a class="dropdown-item active" href="vis-max-temp.html">Latitude vs. Max. Temperature</a></li>
                         <li><a class="dropdown-item" href="viz-humid-level.html">Latitude vs. Humidity Level</a></li>
                         <li><a class="dropdown-item" href="viz-wind-speed.html">Latitude vs. Wind Speed</a></li>
                         <li><a class="dropdown-item" href="viz-cloud.html">Latitude vs. Cloudiness</a></li>
@@ -54,17 +52,28 @@
 
         <!-- Content -->
         <div>
-            <h3>Visualization </h3>
-            <h4>Latitude vs. Maximum Temperature</h4>
+          <h4>Latitude vs. Maximum Temperature</h4>
         </div>
 
-        <div class="container" id='vizualization'>
+        <div class="container justify-content-md-center">
             <div class="row">
-                <div class="col-8">
-                    <img src="Resources/assets/Fig1.png" width="100%">
+
+                <div class="col-6" id="plots-pages">
+                    <img src="Resources/assets/max-temp.png" width="90%">
                 </div>
-                <div class="col-4">
-                    <p>According to blablablab According to blablablab According to blablablab According to blabl According to blablablabAccording to blablablabablab According to blablablab</p>
+
+                <div class="col-4" id="plots-pages">
+                    <p>
+                      To build this plot, I took a maximum temperature from different cityes for 2017 years and compare it with cityes latitude.
+                    </p>
+                      <ul> <Strong>Legend</Strong>
+                        <li>Negative latitude: from equator to South Pole.</li>
+                        <li>Positive latitude: from equator to North Pole.</li>
+                      </ul>
+                    <p>
+                      As we can see on the picture, then closer to equator than highter temperature.
+                      Also, than close we to  South Pole then lower maximum temperature. 
+                    </p>
                 </div>
 
             </div>
@@ -72,15 +81,10 @@
        
 
         <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-              <span class="text-muted">I am footer  </span>
-            </div>
-        </footer>
+        <template id="common-footer"></template>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-        <script>includeHTML()</script>
     </body>
 </html>
