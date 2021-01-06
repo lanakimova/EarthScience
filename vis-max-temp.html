@@ -28,10 +28,26 @@
                         Visualization
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item active" href="vis-max-temp.html">Latitude vs. Max. Temperature</a></li>
-                        <li><a class="dropdown-item" href="viz-humid-level.html">Latitude vs. Humidity Level</a></li>
-                        <li><a class="dropdown-item" href="viz-wind-speed.html">Latitude vs. Wind Speed</a></li>
-                        <li><a class="dropdown-item" href="viz-cloud.html">Latitude vs. Cloudiness</a></li>
+                        <li><a class="dropdown-item active" href="vis-max-temp.html">
+                              <img src="Resources/assets/thermometer.svg">
+                              Latitude vs. Max. Temperature
+                            </a>
+                          </li>
+                        <li><a class="dropdown-item" href="viz-humid-level.html">
+                              <img src="Resources/assets/droplet-half.svg">
+                                Latitude vs. Humidity Level
+                              </a>
+                          </li>
+                        <li><a class="dropdown-item" href="viz-wind-speed.html">
+                              <img src="Resources/assets/shuffle.svg">
+                              Latitude vs. Wind Speed
+                            </a>
+                          </li>
+                        <li><a class="dropdown-item" href="viz-cloud.html">
+                              <img src="Resources/assets/cloud.svg">
+                              Latitude vs. Cloudiness
+                            </a>
+                          </li>
                       </ul>
                     </div>
         
@@ -49,27 +65,23 @@
 
         <!-- Content -->
         <div>
-          <h4>Latitude vs. Maximum Temperature</h4>
+          <h4>
+            Latitude vs. Maximum Temperature
+          </h4>
         </div>
 
         <div class="container justify-content-md-center">
             <div class="row">
 
-                <div class="col-6">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <img src="Resources/assets/max-temp.png" width="90%">
                 </div>
 
-                <div class="col-4">
-                    <p>
-                      To build this plot, I took a maximum temperature from different cityes for 2017 years and compare it with cityes latitude.
-                    </p>
-                      <ul> <Strong>Legend</Strong>
-                        <li>Negative latitude: from equator to South Pole.</li>
-                        <li>Positive latitude: from equator to North Pole.</li>
-                      </ul>
-                    <p>
-                      As we can see on the picture, then closer to equator than highter temperature.
-                      Also, than close we to  South Pole then lower maximum temperature. 
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <p class="vis-text">                     
+                      As we predicted, the highest maximum temperature is on equator with a few outliners, but temperature
+                       doesn’t change a lot between the parallel 20° south and north. You may notice that maximum temperature
+                        is extremely low if we close into North Pole, and not so extremely low at the South Pole. 
                     </p>
                 </div>
 

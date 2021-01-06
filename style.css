@@ -33,6 +33,7 @@ p {
     width: 40%;
 }
 
+
 /* Footer */
 
 .list-inline {
@@ -52,11 +53,6 @@ p {
     width: 50%;  
 }
 
-.col6-indx {
-    border-right-style: double;
-    border-right: 2px solid grey;
-    background-color: blue;
-}
 .preview {
     width: 100%;
 }
@@ -68,4 +64,10 @@ p {
 /* comparison.html only */
 .all-plot-img {
     width: 80%;
+}
+
+/* Visualization */
+.vis-text {
+    padding-top: 100px;
+    
 }
