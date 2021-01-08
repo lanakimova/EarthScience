@@ -1,1 +1,4 @@
 # Web-Design-Challenge
+There are so many factors that have impact on the weather in different part of the earth. In this project, I figured out how latitude affect weather. It is obvious that temperature is higher as we are closer to equator, but what about wind speed, humidity level or cloudiness. To get the answers to that questions I pulled data via API from OpenWeatherMap for more them 500 cities. After assembling data set, I used Matplotlib to plot various plot to show how different aspects of weather change when we close in or move away from equator. To representing results, I created this simple site using Bootstrap 5 and GitHub pages and call it Earth Science. Here you can find data that I used, page to compare all plots on one page, and page with analysis for each aspect. I hope you will find it interesting.
+
+https://lanakimova.github.io/EarthScience/
